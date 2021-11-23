@@ -1,0 +1,22 @@
+#contentBackground {
+    height: 100vh;
+    #content {
+        h1 {
+            text-align: left;
+            margin: 20px 0 20px 0;
+        }
+        #eventPicContainer {
+            .eventImages{
+                padding: 10px;
+                width: 180px;
+                float: left;
+            }
+            .eventImages:hover{
+                width: 190px;
+            }
+        }
+    }
+    ul {
+        list-style: none;
+    }
+}

@@ -1,0 +1,23 @@
+#contentBackground {
+  height: 100%;
+}
+#contentBackground #content h1 {
+  text-align: left;
+  margin: 20px 0 30px 10px;
+}
+#contentBackground #content form #agendaTextArea {
+  height: 50px;
+}
+#contentBackground #content form label {
+  float: left;
+  padding: 0 0 0 10px;
+  width: 120px;
+}
+#contentBackground #content form #imageFiles button {
+  background-color: inherit;
+}
+#contentBackground #content form #imageFiles input {
+  width: 55px;
+}
+
+/*# sourceMappingURL=create.event.css.map */

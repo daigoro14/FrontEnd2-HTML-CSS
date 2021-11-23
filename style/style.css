@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #7b8ebb;
+}
+
+nav {
+  position: fixed;
+  float: left;
+  margin-right: 30px;
+  height: 300px;
+  width: 200px;
+  background-color: #93ceff;
+  border-radius: 0 0 50px 50px;
+}
+nav #navOptionList {
+  top: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 22px;
+  list-style: none;
+  padding: 0;
+  float: left;
+}
+nav #navOptionList li:hover {
+  color: white;
+}
+nav #navOptionList a {
+  color: black;
+  text-decoration: none;
+}
+
+#contentBackground {
+  margin-top: 30px;
+  border-radius: 20px 20px 0 0;
+  width: 60%;
+  background-color: #93ceff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contentBackground #content {
+  padding: 15px 40px 15px 40px;
+}
+#contentBackground #content h1 {
+  text-align: center;
+}
+#contentBackground #content .introPic {
+  height: 300px;
+  width: 100%;
+  object-position: 0 80%;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+#contentBackground #content #eventBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+#contentBackground #content #eventBoxes .eventCard {
+  height: 350px;
+  width: 220px;
+  border-radius: 12px;
+  background-color: white;
+  margin: 10px;
+}
+#contentBackground #content #eventBoxes .eventCard .eventCardImage {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+#contentBackground #content #eventBoxes .eventCard ul {
+  list-style: none;
+  padding: 4px 0 0 6px;
+}
+#contentBackground #content #eventBoxes .eventCard ul .showDescription {
+  background-color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+#contentBackground #content #eventBoxes .eventCard ul .showDescription:hover {
+  color: goldenrod;
+}
+
+#eventDescription {
+  display: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 20px 20px 0 0;
+  min-height: 300px;
+  width: 40%;
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+#eventDescription #closePopUp {
+  float: right;
+  font-size: 14px;
+  height: 30px;
+  width: 50px;
+  margin: 10px 10px 0 0;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+#eventDescription #closePopUp:hover {
+  border: 2px solid #394ec4;
+}
+#eventDescription p {
+  font-size: 18px;
+  padding: 20px 10px 10px 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

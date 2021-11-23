@@ -1,0 +1,27 @@
+#contentBackground{
+    height: 100%;
+    #content{
+        h1{
+            text-align: left;
+            margin: 20px 0 30px 10px;
+        }
+        form{ 
+            #agendaTextArea{
+                height: 50px;
+            }
+            label {
+                float: left;
+                padding: 0 0 0 10px;
+                width: 120px;
+            }
+            #imageFiles{
+                button{
+                    background-color: inherit;
+                }
+                input{
+                    width: 55px;
+                }  
+            }
+        }
+    }
+}

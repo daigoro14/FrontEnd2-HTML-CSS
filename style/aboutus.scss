@@ -1,0 +1,55 @@
+#contentBackground{
+    #content{
+        h1{
+            text-align: left;
+        }
+        #vdDiv{
+            height: 140px;
+            .vdImage{
+                width: 140px;
+                float: left;
+            }
+            #vdInfo{
+                float: left;
+                padding: 10px;
+            }
+        }
+        #teamPicture {
+            width: 100%;
+        }
+
+        #contactForm{
+            background-color: rgb(221, 221, 221);
+            width: 100%;
+            height: 200px;
+            label{
+                float: left;
+                padding: 5px 0 0 10px;
+                width: 100px;
+            }
+            input{
+                margin: 5px 0 0 0;
+                width: 160px;
+            }
+            button{
+                float: left;
+                margin-left: 110px;
+                width: 164px;
+            }
+        }
+        #messageRecievedDiv {
+            position: relative;
+            background-color: rgb(115, 252, 167);
+            width: 100%;
+            height: 200px;
+            #thankYouMessaege{
+                text-shadow: 3px 3px 10px rgb(28, 75, 47);
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#contentBackground {
+  height: 100vh;
+}
+#contentBackground #content h1 {
+  text-align: left;
+  margin: 20px 0 20px 0;
+}
+#contentBackground #content #eventPicContainer .eventImages {
+  padding: 10px;
+  width: 180px;
+  float: left;
+}
+#contentBackground #content #eventPicContainer .eventImages:hover {
+  width: 190px;
+}
+#contentBackground ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=event.details.css.map */

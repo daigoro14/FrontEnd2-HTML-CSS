@@ -1,0 +1,52 @@
+#contentBackground #content h1 {
+  text-align: left;
+}
+#contentBackground #content #vdDiv {
+  height: 140px;
+}
+#contentBackground #content #vdDiv .vdImage {
+  width: 140px;
+  float: left;
+}
+#contentBackground #content #vdDiv #vdInfo {
+  float: left;
+  padding: 10px;
+}
+#contentBackground #content #teamPicture {
+  width: 100%;
+}
+#contentBackground #content #contactForm {
+  background-color: #dddddd;
+  width: 100%;
+  height: 200px;
+}
+#contentBackground #content #contactForm label {
+  float: left;
+  padding: 5px 0 0 10px;
+  width: 100px;
+}
+#contentBackground #content #contactForm input {
+  margin: 5px 0 0 0;
+  width: 160px;
+}
+#contentBackground #content #contactForm button {
+  float: left;
+  margin-left: 110px;
+  width: 164px;
+}
+#contentBackground #content #messageRecievedDiv {
+  position: relative;
+  background-color: #73fca7;
+  width: 100%;
+  height: 200px;
+}
+#contentBackground #content #messageRecievedDiv #thankYouMessaege {
+  text-shadow: 3px 3px 10px #1c4b2f;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*# sourceMappingURL=aboutus.css.map */
